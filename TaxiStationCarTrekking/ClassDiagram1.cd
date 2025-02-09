@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TaxiStationCarTrekking.AddDataForm">
+    <Position X="9" Y="3" Width="1.5" />
+    <Members>
+      <Field Name="arrivalPoint" Hidden="true" />
+      <Field Name="classOfTransport" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="createRoute" Hidden="true" />
+      <Field Name="createTransport" Hidden="true" />
+      <Field Name="DeletePointOfRoute" Hidden="true" />
+      <Field Name="DeleteRouteByTransport" Hidden="true" />
+      <Field Name="departurePoint" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="gMapControl1" Hidden="true" />
+      <Field Name="groupBox1" Hidden="true" />
+      <Field Name="groupBox2" Hidden="true" />
+      <Field Name="groupBox3" Hidden="true" />
+      <Field Name="groupBox4" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label10" Hidden="true" />
+      <Field Name="label11" Hidden="true" />
+      <Field Name="label12" Hidden="true" />
+      <Field Name="label13" Hidden="true" />
+      <Field Name="label5" Hidden="true" />
+      <Field Name="label6" Hidden="true" />
+      <Field Name="label7" Hidden="true" />
+      <Field Name="label8" Hidden="true" />
+      <Field Name="label9" Hidden="true" />
+      <Field Name="listOfPoints" Hidden="true" />
+      <Field Name="listOfRoute" Hidden="true" />
+      <Field Name="listOfTransport" Hidden="true" />
+      <Field Name="nameRoute" Hidden="true" />
+      <Field Name="nameTransport" Hidden="true" />
+      <Field Name="numberOfSeats" Hidden="true" />
+      <Field Name="price" Hidden="true" />
+      <Field Name="SaveNewRoute" Hidden="true" />
+      <Field Name="typeOfTransport" Hidden="true" />
+      <Field Name="UpdateDetail" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>+AQFAYBrADAMIRQAAgCBIBBSACgBARAAIShCIAIAQIA=</HashCode>
+      <FileName>AddDataForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaxiStationCarTrekking.Program">
+    <Position X="9.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaxiStationCarTrekking.Route">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAEoAAABAQAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Route.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaxiStationCarTrekking.Transport">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACBAAAAAAQADQAAEIEAABISgAAAAAgAAAAAAAKgAAAA=</HashCode>
+      <FileName>Transport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaxiStationCarTrekking.ViewDataForm">
+    <Position X="6" Y="3" Width="1.5" />
+    <Members>
+      <Field Name="allTransportSelected" Hidden="true" />
+      <Field Name="BusSelected" Hidden="true" />
+      <Field Name="BusySelected" Hidden="true" />
+      <Field Name="CarSelected" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="DetailsAboutTransport" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="EconomySelected" Hidden="true" />
+      <Field Name="FreeSelected" Hidden="true" />
+      <Field Name="gMapControl1" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="ListOfTransport" Hidden="true" />
+      <Field Name="menuStrip1" Hidden="true" />
+      <Field Name="OpenAddForm" Hidden="true" />
+      <Field Name="PremiumSelected" Hidden="true" />
+      <Field Name="StandartSelected" Hidden="true" />
+      <Field Name="автобусиToolStripMenuItem" Hidden="true" />
+      <Field Name="автомобіліToolStripMenuItem" Hidden="true" />
+      <Field Name="пропозиціїToolStripMenuItem" Hidden="true" />
+      <Field Name="фільтриToolStripMenuItem" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>ASAAhBCAADAIFBQACECAQCBCAiBSAAgQQIEAACCAroA=</HashCode>
+      <FileName>ViewDataForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaxiStationCarTrekking.Properties.Resources">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAACAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaxiStationCarTrekking.Properties.Settings">
+    <Position X="11" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaxiStationCarTrekking.CopyOfTransport">
+    <Position X="0.75" Y="12.5" Width="1.5" />
+    <Members>
+      <Method Name="CopyOfTransport" Hidden="true" />
+      <Method Name="Export" Hidden="true" />
+      <Method Name="FinishTrip" Hidden="true" />
+      <Method Name="Import" Hidden="true" />
+      <Method Name="PlanTrip" Hidden="true" />
+      <Method Name="RandomPosition" Hidden="true" />
+      <Method Name="ReserveFreeSeat" Hidden="true" />
+      <Method Name="ShowDetails" Hidden="true" />
+      <Method Name="ToString" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>ACBAAAAAAQADQAAEIEAABISgAAAAAgAAAAAAAKgAAAA=</HashCode>
+      <FileName>Transport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TaxiStationCarTrekking.CopyOfRoute">
+    <Position X="2.5" Y="12.5" Width="1.5" />
+    <Members>
+      <Method Name="CopyOfRoute" Hidden="true" />
+      <Method Name="Equals" Hidden="true" />
+      <Method Name="Export" Hidden="true" />
+      <Method Name="GetHashCode" Hidden="true" />
+      <Method Name="Import" Hidden="true" />
+      <Method Name="ToString" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAEoAAABAQAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Route.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="TaxiStationCarTrekking.TypeOfTransport">
+    <Position X="2.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Transport.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TaxiStationCarTrekking.ClassOfTransport">
+    <Position X="4" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAAAAAIAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Transport.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
